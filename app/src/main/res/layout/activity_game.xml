@@ -7,7 +7,8 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/Geme_bg"/>
+        android:scaleType="centerCrop"
+        android:src="@drawable/game_bg"/>
     
     <FrameLayout
         android:layout_width="362sp"
@@ -17,9 +18,10 @@
         android:layout_marginTop="80dp">
 
         <TextView
+            android:id="@+id/result_time_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="残り時間：〇秒"
+            android:text="@string/result_time"
             android:textSize="48sp"
             android:textStyle="bold"
             android:textColor="@color/white"
@@ -27,10 +29,11 @@
     </FrameLayout>
     
     <ImageView
+        android:id="@+id/shampoo"
         android:layout_width="399dp"
         android:layout_height="515dp"
         android:layout_marginTop="130dp"
-        android:src="@drawable/Game_shampoo1" />
+        android:src="@drawable/game_shampoo1" />
 
     <FrameLayout
         android:id="@+id/tap_button"
@@ -43,7 +46,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="鬼タップ！！"
+            android:text="@string/onitap"
             android:textSize="36dp"
             android:textStyle="bold"
             android:textColor="@color/black"

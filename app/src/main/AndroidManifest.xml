@@ -13,8 +13,8 @@
         android:theme="@style/Theme.KungFuApp"
         tools:targetApi="31">
         <activity
-            android:name=".ClearActivity"
-            android:exported="false">
+            android:name=".TopActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,7 +25,7 @@
             android:name=".GameActivity"
             android:exported="false" />
         <activity
-            android:name=".TopActivity"
+            android:name=".ClearActivity"
             android:exported="false" />
     </application>
 
