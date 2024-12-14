@@ -30,6 +30,7 @@ public class GameActivity extends AppCompatActivity {
 
     private TextView resultTimeText;
     private ImageView shampooImageView;
+    private TextView gameLevelTextView;
     private View actionPunch;
     private View actionKick;
     private CountDownTimer timer;
@@ -53,6 +54,9 @@ public class GameActivity extends AppCompatActivity {
 
         //KEY_GAME_LEVELをキーにして値を受け取っている
         gameLevel = getIntent().getIntExtra(KEY_GAME_LEVEL, -1);
+
+        gameLevelTextView = findViewById(R.id.game_level_text);
+        gameLevelTextView.setText(getString(R.string.game_level_text,gameLevel));
 
         //ゲームレベルに応じてカウントの値を変更する
         if(gameLevel == 1){

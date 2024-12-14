@@ -27,18 +27,18 @@ public class ClearActivity extends AppCompatActivity {
 
             switch (status) {
                 case CLEAR:
-                    resultMsg = "クリア！おめでとう★";
+                    resultMsg = "クリア！\nおめでとう★";
                     resultImResId = R.drawable.clear_clear2;
                     break;
 
                 case NORMAL:
-                    resultMsg = "あともう少し！";
+                    resultMsg = "あともう少し！\nもう1回！";
                     resultImResId = R.drawable.clear_clear1;
                     break;
 
                 case FAILED:
                 default:
-                    resultMsg = "失敗。。。";
+                    resultMsg = "失敗。。。\n頑張ろう！";
                     resultImResId = R.drawable.clear_lose;
                     break;
             }

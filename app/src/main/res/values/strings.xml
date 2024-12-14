@@ -3,6 +3,7 @@
     <string name="start_game">ゲームスタート</string>
     <string name="title">イー・アル・\nシャンプー</string>
     <string name="onitap">鬼タップ！！</string>
+    <string name = "game_level_text">レベル：%d</string>
     <string name="result_time">残り時間：%d秒</string>
     <string name="clear_msg">クリア！\nおめでとう★</string>
     <string name="return_top">トップに戻る</string>
