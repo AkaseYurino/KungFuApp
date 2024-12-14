@@ -34,7 +34,6 @@
         android:id="@+id/clear_image"
         android:layout_width="368dp"
         android:layout_height="486dp"
-        android:src="@drawable/clear_clear2"
         android:layout_gravity="center"/>
     
     <FrameLayout

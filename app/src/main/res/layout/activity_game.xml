@@ -27,13 +27,29 @@
             android:textColor="@color/white"
             android:layout_gravity="center" />
     </FrameLayout>
-    
+
     <ImageView
         android:id="@+id/shampoo"
         android:layout_width="399dp"
         android:layout_height="515dp"
-        android:layout_marginTop="130dp"
-        android:src="@drawable/game_shampoo1" />
+        android:layout_gravity="center"
+        android:src="@drawable/shampoo1" />
+
+    <ImageView
+        android:id="@+id/action_punch"
+        android:layout_width="410dp"
+        android:layout_height="481dp"
+        android:src="@drawable/punch"
+        android:layout_gravity="bottom|start"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/action_kick"
+        android:layout_width="410dp"
+        android:layout_height="481dp"
+        android:src="@drawable/kick"
+        android:layout_gravity="bottom|end"
+        android:visibility="gone" />
 
     <FrameLayout
         android:id="@+id/tap_button"
